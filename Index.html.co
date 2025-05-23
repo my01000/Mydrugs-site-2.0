@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYDRUGS - Produtos Naturais</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #f2f2f2;
+    }header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ff99;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #00ff99;
+}
+
+.hero {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/e/e7/How_to_Sell_Drugs_Online_%28Fast%29_title_card.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  font-size: 2em;
+  border-radius: 10px;
+}
+
+.info {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.info h3 {
+  color: #00ff99;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #00ff99;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MYDRUGS</h1>
+  </header>  <section class="hero">
+    <h2>Produtos Naturais com Entrega 100% Discreta</h2>
+  </section>  <section class="info">
+    <h3>Por que escolher a MYDRUGS?</h3>
+    <p>
+      Somos a única loja no Brasil especializada em produtos naturais com entregas totalmente discretas. Seu bem-estar é nossa prioridade, e sua privacidade, nosso compromisso.
+    </p>
+  </section>  <section class="info">
+    <h3>Entregamos para todo o Brasil</h3>
+    <p>
+      Onde você estiver, fazemos sua entrega de forma rápida, segura e confidencial.
+    </p>
+  </section>  <footer>
+    <p>&copy; 2025 MYDRUGS. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

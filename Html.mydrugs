@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeoMarket</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #00ff99;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 2em;
+      animation: glitch 1s infinite;
+    }
+    .terminal {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #00ff99;
+      width: 80%;
+      max-width: 600px;
+      text-align: center;
+    }
+    .typing {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #00ff99;
+      animation: typing 3s steps(40, end), blink .75s step-end infinite;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @keyframes glitch {
+      0% {
+        text-shadow: 2px 2px #ff00ff, -2px -2px #00ffff;
+      }
+      50% {
+        text-shadow: -2px -2px #ff00ff, 2px 2px #00ffff;
+      }
+      100% {
+        text-shadow: 2px 2px #ff00ff, -2px -2px #00ffff;
+      }
+    }
+    button {
+      margin-top: 20px;
+      background-color: #00ff99;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #00cc7a;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <h1>NeoMarket</h1>
+    <p class="typing">Conectando ao mercado descentralizado...</p>
+    <button onclick="alert('Acesso negado. Autenticação necessária.')">Entrar no Sistema</button>
+    <button onclick="window.location.href='painel.html'">Abrir Painel</button>
+  </div>
+</body>
+</html>
